@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UbiquityStoreManager.h"
+#import <UbiquityStoreManager/UbiquityStoreManager.h>
 
 @class User;
 

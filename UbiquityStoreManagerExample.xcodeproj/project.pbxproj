@@ -23,10 +23,26 @@
 		5B4B126F15227DFE00153613 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B126E15227DFE00153613 /* User.m */; };
 		5B4B127215227DFE00153613 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B127115227DFE00153613 /* Event.m */; };
 		93D3906BB1F143AA15A9BDB9 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3982680A3617FB669BBC5 /* JRSwizzle.m */; };
-		93D39247AA48A93AE9BE359A /* NSError+UbiquityStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D39F19900BD420A6E9B72E /* NSError+UbiquityStoreManager.m */; };
 		DA0CA5AD17773ED30093382E /* UbiquityStoreManagerExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA0CA5AB17773ED30093382E /* UbiquityStoreManagerExample.xcdatamodeld */; };
-		DA79AA411558613F00BAA07A /* UbiquityStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79AA401558613F00BAA07A /* UbiquityStoreManager.m */; };
+		DB070FB6188E9CE6007F4A1B /* libUbiquityStoreManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB070FB0188E9C8F007F4A1B /* libUbiquityStoreManager.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB070FAF188E9C8F007F4A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB070FAA188E9C8F007F4A1B /* UbiquityStoreManager.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB070F35188E9495007F4A1B;
+			remoteInfo = UbiquityStoreManager;
+		};
+		DB070FB2188E9CCA007F4A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB070FAA188E9C8F007F4A1B /* UbiquityStoreManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DB070F34188E9495007F4A1B;
+			remoteInfo = UbiquityStoreManager;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5B4B122215227C6D00153613 /* UbiquityStoreManagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UbiquityStoreManagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,13 +70,10 @@
 		5B5E838C152BAB96009C1991 /* UbiquityStoreManagerExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = file.entitlements; path = UbiquityStoreManagerExample.entitlements; sourceTree = "<group>"; };
 		93D3982680A3617FB669BBC5 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		93D39827ACFB3A3A3E1CEF4C /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
-		93D39B7366D5AD8A2FEFD7F1 /* NSError+UbiquityStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+UbiquityStoreManager.h"; sourceTree = "<group>"; };
-		93D39F19900BD420A6E9B72E /* NSError+UbiquityStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+UbiquityStoreManager.m"; sourceTree = "<group>"; };
 		DA0CA5AC17773ED30093382E /* UbiquityStoreManagerExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UbiquityStoreManagerExample.xcdatamodel; sourceTree = "<group>"; };
 		DA79AA3115585EBE00BAA07A /* UbiquityStoreManagerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "UbiquityStoreManagerExample-Info.plist"; sourceTree = "<group>"; };
 		DA79AA3215585EBE00BAA07A /* UbiquityStoreManagerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UbiquityStoreManagerExample-Prefix.pch"; sourceTree = "<group>"; };
-		DA79AA3F1558613F00BAA07A /* UbiquityStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UbiquityStoreManager.h; sourceTree = "<group>"; };
-		DA79AA401558613F00BAA07A /* UbiquityStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UbiquityStoreManager.m; sourceTree = "<group>"; };
+		DB070FAA188E9C8F007F4A1B /* UbiquityStoreManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = UbiquityStoreManager.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB070FB6188E9CE6007F4A1B /* libUbiquityStoreManager.a in Frameworks */,
 				5B4B122715227C6D00153613 /* UIKit.framework in Frameworks */,
 				5B4B122915227C6D00153613 /* Foundation.framework in Frameworks */,
 				5B4B122B15227C6D00153613 /* CoreGraphics.framework in Frameworks */,
@@ -81,7 +95,6 @@
 		5B4B121715227C6D00153613 = {
 			isa = PBXGroup;
 			children = (
-				DA79AA3E1558613F00BAA07A /* UbiquityStoreManager */,
 				5B4B122E15227C6D00153613 /* UbiquityStoreManagerExample */,
 				5B4B122515227C6D00153613 /* Frameworks */,
 				5B4B122315227C6D00153613 /* Products */,
@@ -100,6 +113,7 @@
 		5B4B122515227C6D00153613 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB070FAA188E9C8F007F4A1B /* UbiquityStoreManager.xcodeproj */,
 				5B4B122615227C6D00153613 /* UIKit.framework */,
 				5B4B122815227C6D00153613 /* Foundation.framework */,
 				5B4B122A15227C6D00153613 /* CoreGraphics.framework */,
@@ -153,15 +167,12 @@
 			path = jrswizzle;
 			sourceTree = "<group>";
 		};
-		DA79AA3E1558613F00BAA07A /* UbiquityStoreManager */ = {
+		DB070FAB188E9C8F007F4A1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA79AA3F1558613F00BAA07A /* UbiquityStoreManager.h */,
-				DA79AA401558613F00BAA07A /* UbiquityStoreManager.m */,
-				93D39F19900BD420A6E9B72E /* NSError+UbiquityStoreManager.m */,
-				93D39B7366D5AD8A2FEFD7F1 /* NSError+UbiquityStoreManager.h */,
+				DB070FB0188E9C8F007F4A1B /* libUbiquityStoreManager.a */,
 			);
-			path = UbiquityStoreManager;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DB070FB3188E9CCA007F4A1B /* PBXTargetDependency */,
 			);
 			name = UbiquityStoreManagerExample;
 			productName = UbiquityStoreManagerExample;
@@ -203,12 +215,28 @@
 			mainGroup = 5B4B121715227C6D00153613;
 			productRefGroup = 5B4B122315227C6D00153613 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DB070FAB188E9C8F007F4A1B /* Products */;
+					ProjectRef = DB070FAA188E9C8F007F4A1B /* UbiquityStoreManager.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5B4B122115227C6D00153613 /* UbiquityStoreManagerExample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DB070FB0188E9C8F007F4A1B /* libUbiquityStoreManager.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUbiquityStoreManager.a;
+			remoteRef = DB070FAF188E9C8F007F4A1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5B4B122015227C6D00153613 /* Resources */ = {
@@ -236,14 +264,20 @@
 				5B4B124215227C6E00153613 /* DetailViewController.m in Sources */,
 				5B4B126F15227DFE00153613 /* User.m in Sources */,
 				5B4B127215227DFE00153613 /* Event.m in Sources */,
-				DA79AA411558613F00BAA07A /* UbiquityStoreManager.m in Sources */,
-				93D39247AA48A93AE9BE359A /* NSError+UbiquityStoreManager.m in Sources */,
 				93D3906BB1F143AA15A9BDB9 /* JRSwizzle.m in Sources */,
 				DA0CA5AD17773ED30093382E /* UbiquityStoreManagerExample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB070FB3188E9CCA007F4A1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UbiquityStoreManager;
+			targetProxy = DB070FB2188E9CCA007F4A1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5B4B123115227C6E00153613 /* InfoPlist.strings */ = {
@@ -345,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UbiquityStoreManagerExample/UbiquityStoreManagerExample-Prefix.pch";
 				INFOPLIST_FILE = "UbiquityStoreManagerExample/UbiquityStoreManagerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = UbiquityStoreManagerExample;
 				WRAPPER_EXTENSION = app;
@@ -358,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UbiquityStoreManagerExample/UbiquityStoreManagerExample-Prefix.pch";
 				INFOPLIST_FILE = "UbiquityStoreManagerExample/UbiquityStoreManagerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = UbiquityStoreManagerExample;
 				WRAPPER_EXTENSION = app;
 			};

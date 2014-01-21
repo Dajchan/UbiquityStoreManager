@@ -28,11 +28,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     NSLog( @"Starting UbiquityStoreManagerExample on device: %@\n\n", [UIDevice currentDevice].name );
-
+    
+    
     // STEP 1 - Initialize the UbiquityStoreManager
-    _ubiquityStoreManager = [[UbiquityStoreManager alloc] initStoreNamed:nil withManagedObjectModel:nil
-                                                           localStoreURL:nil containerIdentifier:nil additionalStoreOptions:nil
-                                                                delegate:self];
+    _ubiquityStoreManager = [[UbiquityStoreManager alloc] initWithDelegate:self];
+    
+//                             initStoreNamed:nil withManagedObjectModel:nil
+//                                                           localStoreURL:nil containerIdentifier:nil storeConfiguration:nil storeOptions:nil delegate:self];
+    
+//    _ubiquityStoreManager = [[UbiquityStoreManager alloc] initStoreNamed:nil withManagedObjectModel:nil
+//                                                           localStoreURL:nil containerIdentifier:nil additionalStoreOptions:nil
+//                                                                delegate:self];
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
 
