@@ -5,34 +5,46 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>AD9A365F-3E15-4541-8FC0-FC8C37F01D29</string>
+	<string>5FE62F0F-16AB-4E33-BEB3-621C78174AAA</string>
 	<key>IDESourceControlProjectName</key>
 	<string>UbiquityStoreManager</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>80ED3426-9063-440D-8241-AAF988577CB3</key>
-		<string>https://github.com/lhunath/UbiquityStoreManager.git</string>
+		<key>12227310-BF60-4E43-862F-AF9E73ED6202</key>
+		<string>ssh://github.com/Dajchan/UbiquityStoreManager.git</string>
+		<key>AC16B09D-2516-437C-B783-1013077A824D</key>
+		<string>git://github.com/jonmarimba/jrswizzle.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>UbiquityStoreManager.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>80ED3426-9063-440D-8241-AAF988577CB3</key>
+		<key>12227310-BF60-4E43-862F-AF9E73ED6202</key>
 		<string>../..</string>
+		<key>AC16B09D-2516-437C-B783-1013077A824D</key>
+		<string>../../jrswizzle</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/lhunath/UbiquityStoreManager.git</string>
+	<string>ssh://github.com/Dajchan/UbiquityStoreManager.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>80ED3426-9063-440D-8241-AAF988577CB3</string>
+	<string>12227310-BF60-4E43-862F-AF9E73ED6202</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>80ED3426-9063-440D-8241-AAF988577CB3</string>
+			<string>AC16B09D-2516-437C-B783-1013077A824D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jrswizzle</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>12227310-BF60-4E43-862F-AF9E73ED6202</string>
 			<key>IDESourceControlWCCName</key>
 			<string>UbiquityStoreManager</string>
 		</dict>
