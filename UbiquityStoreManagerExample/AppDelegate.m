@@ -28,6 +28,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     NSLog( @"Starting UbiquityStoreManagerExample on device: %@\n\n", [UIDevice currentDevice].name );
+    [[[NSMutableDictionary alloc] init] setObject:@"b" forKey:nil];
     
     
     // STEP 1 - Initialize the UbiquityStoreManager
