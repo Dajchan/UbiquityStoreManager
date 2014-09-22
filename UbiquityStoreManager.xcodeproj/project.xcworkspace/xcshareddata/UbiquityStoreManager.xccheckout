@@ -10,33 +10,33 @@
 	<string>UbiquityStoreManager</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>12227310-BF60-4E43-862F-AF9E73ED6202</key>
-		<string>ssh://github.com/Dajchan/UbiquityStoreManager.git</string>
-		<key>AC16B09D-2516-437C-B783-1013077A824D</key>
+		<key>8A15A8EA0B3D0B497C4883425BC74DF995224BB3</key>
 		<string>git://github.com/jonmarimba/jrswizzle.git</string>
+		<key>E47DEC29CB0D0FDE3560EF46E1808FA1C723D657</key>
+		<string>ssh://github.com/Dajchan/UbiquityStoreManager.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>UbiquityStoreManager.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>12227310-BF60-4E43-862F-AF9E73ED6202</key>
-		<string>../..</string>
-		<key>AC16B09D-2516-437C-B783-1013077A824D</key>
+		<key>8A15A8EA0B3D0B497C4883425BC74DF995224BB3</key>
 		<string>../../jrswizzle</string>
+		<key>E47DEC29CB0D0FDE3560EF46E1808FA1C723D657</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/Dajchan/UbiquityStoreManager.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>12227310-BF60-4E43-862F-AF9E73ED6202</string>
+	<string>E47DEC29CB0D0FDE3560EF46E1808FA1C723D657</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>AC16B09D-2516-437C-B783-1013077A824D</string>
+			<string>8A15A8EA0B3D0B497C4883425BC74DF995224BB3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>jrswizzle</string>
 		</dict>
@@ -44,7 +44,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>12227310-BF60-4E43-862F-AF9E73ED6202</string>
+			<string>E47DEC29CB0D0FDE3560EF46E1808FA1C723D657</string>
 			<key>IDESourceControlWCCName</key>
 			<string>UbiquityStoreManager</string>
 		</dict>
